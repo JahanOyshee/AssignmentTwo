@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    width: 100%;
+
+}
+
+
+/* shared style */
+.small-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.medium-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.primary-btn,
+.btn-two {
+    border-radius: 40px;
+    background-color: rgb(230, 83, 60);
+    padding: 16px 40px;
+    color: #FFFFFF;
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+
+.btn-two {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 20px;
+
+}
+
+.medium-small-text {
+    font-size: 28px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+/* banner section starts */
+
+
+/* navbar section starts */
+.banner {
+    background-image: linear-gradient(to bottom, #000000, #232222, #000000);
+}
+
+.navbar {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.nav-menu {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+.humburger {
+    display: none;
+
+}
+
+.home-btn {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 46px;
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    color: #FFFFFF;
+    border: none;
+    margin: 5px;
+}
+
+.about {
+    margin-right: 20px;
+}
+
+.fitness-text {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* navbar section ends */
+
+
+/* stay healthy section  starts */
+header {
+    margin: 0;
+
+}
+
+main {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.stay-healthy {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.stay-healthy-content {
+    width: 36%;
+
+}
+
+.stay-healthy-content>h1,
+.stay-healthy-content>p {
+    margin-bottom: 20px;
+}
+
+.stay-healthy-img-container {
+    width: 25%;
+    height: 580px;
+    position: relative;
+
+}
+
+.stay-healthy-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.stay-healthy-content>h1 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+.miama {
+    font-family: 'Miama', sans-serif;
+    font-size: 8rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.stay-healthy-content>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.stay-healthy-btn {
+    display: flex;
+}
+
+
+.tutorial-card {
+    width: 206px;
+    height: 96px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 5%;
+    left: 56%;
+
+}
+
+.videos-card {
+    color: #FFFFFF;
+    height: 85px;
+    width: 190px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 45%;
+    left: 80%;
+}
+
+.videos-card>div {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.small-card-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.circle-icon {
+    font-size: 30px;
+    position: relative;
+}
+
+.play-icon {
+
+    display: none;
+}
+
+/* stay healthy section ends */
+
+
+/* habit section starts */
+
+.habit {
+    width: 73%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #000000;
+    margin-bottom: 100px;
+
+}
+
+.habit-text {
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.habit-content-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.habit-content {
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.habit-image-container {
+    height: 180px;
+    width: 180px;
+}
+
+.habit-image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.64);
+    object-fit: cover;
+}
+
+/* habit section ends */
+
+
+/* run section starts */
+.run {
+    margin: 0 auto;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+    width: 73%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.run-img-container {
+    width: 360px;
+    height: 310px;
+
+}
+
+.run-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 65% 28%;
+
+}
+
+.run-text-container {
+    width: 40%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/* run section ends */
+
+
+/*Calculate BMI section starts */
+
+
+.calculate-bmi-text {
+
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.calculate-bmi-content {
+    background-color: rgb(34, 34, 34);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.calculate-bmi-text>h2,
+.calculate-bmi-text>p {
+    margin-bottom: 15px;
+}
+
+.calculate-bmi-table>h2 {
+    margin-bottom: 25px;
+
+}
+
+.calculate-bmi-table {
+    color: white;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #353232;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.calculate-bmi-form {
+    width: 41%;
+    display: flex;
+    height: 400px;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.form-filed {
+    border-radius: 8px;
+    width: 200px;
+    padding: 8px;
+}
+
+.form-field input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-field input[type="text"]::placeholder {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-container input,
+textarea,
+select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5); /* for phone */
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#twoxselector {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 420px;
+    padding: 10px;
+    margin-left: 7px;
+    color: rgba(255, 255, 255, 0.5); /* for phone */
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-content {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+/*Calculate BMI section ends */
+
+
+/* Team starts */
+
+.team {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-text>p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.team-image {
+    width: 325px;
+    height: 270px;
+}
+
+.team-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.team-img-container {
+    width: max-content;
+    border-radius: 18px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.info>h4 {
+    color: #FFFFFF;
+}
+
+#info-1 {
+    bottom: 45%;
+    left: 17%;
+    position: absolute;
+
+}
+
+#info-2 {
+    bottom: 45%;
+    left: 40%;
+    position: absolute;
+
+}
+
+#info-3 {
+    bottom: 45%;
+    left: 63%;
+    position: absolute;
+
+}
+
+#info-4 {
+    bottom: 3%;
+    left: 17%;
+    position: absolute;
+
+}
+
+#info-5 {
+    bottom: 3%;
+    left: 40%;
+    position: absolute;
+
+}
+
+#info-6 {
+    bottom: 3%;
+    left: 63%;
+    position: absolute;
+
+}
+
+/* Team ends */
+
+/* Testimonial starts */
+.testimonial-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonial-headline {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.testimonial-left {
+    flex: 1;
+    max-width: 600px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.customer-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    max-width: 500px;
+}
+
+.testimonial-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.testimonial-content p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.testimonial-right {
+    flex: 1;
+    max-width: 500px;
+}
+
+.testimonial-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Testimonial ends */
+
+/* Footer starts */
+.footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo h2 {
+    color: #ff4d2d;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+
+.footer-logo p {
+    max-width: 400px;
+    font-size: 16px;
+    color: #9e9e9e;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #9e9e9e;
+    font-size: 16px;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #9e9e9e;
+}
+
+/* Footer ends */
